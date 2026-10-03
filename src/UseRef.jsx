@@ -3,12 +3,12 @@
 
 import React, { useEffect, UseRef } from 'react'
 
-const UseRef = () => {
+const UseRef = () => { 
     const inputRef = React.useRef(null)
     useEffect(()=>{
-        inputRef.current.focus()
-    },[])
-    const changeValue = () =>{
+        inputRef.current.focus() 
+    },[]) 
+    const changeValue = () =>{ 
         inputRef.current.value = "Hello xee xee"
     } 
   return (
@@ -21,7 +21,7 @@ const UseRef = () => {
     
     </div>
   )
-}
+} 
 
 export default UseRef
 // state don't have an access to DOM
