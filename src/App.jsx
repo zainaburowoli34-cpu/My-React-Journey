@@ -1,10 +1,12 @@
 import Calculator from "./Calculator/Calculator";
-import './Calculator/App.css'; 
+// import './Calculator/App.css'; 
+import Dashboard from "./Dashboard";
 
 const App = () => {
   return (
      <>
-      <Calculator /> 
+      {/* <Calculator />  */}
+      <Dashboard />  
     </>
   );
 };
